@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Limon-Restorant</title>
+
+  <!--
+    - custom css link 
+  -->
+  <link rel="stylesheet" href="./assets/css/foodhub.css">
+  <link rel="stylesheet" href="./assets/css/media_query.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--
+    - main container
+  -->
+
+  <div class="container">
+
+    <!--
+      - #HEADER
+    -->
+
+    <header>
+
+      <nav class="navbar">
+
+        <div class="navbar-wrapper">
+
+          <a href="#">
+            <img src="./assets/images/logo.svg" alt="logo" width="130">
+          </a>
+
+          <ul class="navbar-nav">
+
+            <li>
+              <a href="#home" class="nav-link">Ana Səyfə</a>
+            </li>
+
+            <li>
+              <a href="#about" class="nav-link">Haqqımızda</a>
+            </li>
+
+            <li>
+              <a href="#services" class="nav-link">Servislər</a>
+            </li>
+
+            <li>
+              <a href="https://menu.cafetap.az/restaurants/229/categories" class="nav-link">Menü</a>
+            </li>
+
+            <li>
+              <a href="#testimonials" class="nav-link">Proqramımız</a>
+            </li>
+
+          </ul>
+
+          <div class="navbar-btn-group">
+
+            <button class="shopping-cart-btn">
+              <img src="./assets/images/cart.svg" alt="shopping cart icon" width="18">
+              <span class="count">5</span>
+            </button>
+
+            <button class="menu-toggle-btn">
+              <span class="line one"></span>
+              <span class="line two"></span>
+              <span class="line three"></span>
+            </button>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+      <div class="cart-box">
+
+        <ul class="cart-box-ul">
+
+          <h4 class="cart-h4">Tərcih edilənlər</h4>
+
+          <li>
+            <a href="https://menu.cafetap.az/restaurants/229/categories" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu1.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 onclick="" class="product-name">Ət dönər</h5>
+              <p class="product-price">
+                <span class="small">AZN</span>2.50
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu2.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Pide</h5>
+              <p class="product-price">
+              <span class="small">AZN</span>5
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu3.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Şaurma</h5>
+              <p class="product-price">
+                <span class="small">AZN</span>3.50
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu4.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Tikə Kababı</h5>
+              <p class="product-price">
+                <span class="small">AZN</span>6
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu5.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Toyuq supu</h5>
+              <p class="product-price">
+                <span class="small">AZN</span>4
+              </p>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="cart-btn-group">
+          <button onclick="document.location='https://menu.cafetap.az/restaurants/229/categories' "class="btn btn-secondary">Tam menyu</button>
+          
+        </div>
+
+      </div>
+
+    </header>
+
+
+
+
+
+    <main>
+
+      <!--
+        - #HOME SECTION
+      -->
+
+      <section class="home" id="home">
+
+        <div class="home-left">
+
+          <p class="home-subtext">Salam! Yeni Dost. 
+
+          <h1 class="main-heading">Limon-Ailəvi Restoranına Xoş gəlmisiniz!.</h1>
+
+          <p class="home-text">
+           Limon Restorantı Şəki şəhərində yerləşir.Yerləşdiyi məkan 9 mərtəbənin altıdır.
+          </p>
+
+          <div class="btn-group">
+
+            <button onclick="document.location='https://menu.cafetap.az/restaurants/229/categories'" class="btn btn-primary btn-icon">
+              <img src="./assets/images/menu.svg" alt="menu icon">
+              Menyü
+            </button>
+            
+
+          </div>
+
+        </div>
+
+        <div class="home-right">
+
+          <img src="./assets/images/food1.png" alt="food image" class="food-img food-1" width="200" loading="lazy">
+          <img src="./assets/images/food2.png" alt="food image" class="food-img food-2" width="200" loading="lazy">
+          <img src="./assets/images/food3.png" alt="food image" class="food-img food-3" width="200" loading="lazy">
+
+          
+
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-1" width="25">
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-2" width="15">
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-3" width="30">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-4" width="60">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-5" width="40">
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #ABOUT SECTION
+      -->
+
+      <section class="about" id="about">
+
+        <div class="about-left">
+
+          <div class="img-box">
+            <img src="./assets/images/about-image.jpg" alt="about image" class="about-img" width="250">
+          </div>
+
+          <div class="abs-content-box">
+            <div class="dotted-border">
+              
+              
+            </div>
+          </div>
+
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-6" width="20">
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-7" width="30">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-8" width="35">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-9" width="80">
+
+        </div>
+
+        <div class="about-right">
+
+          <h2 class="section-title">Limon-Ailəvi Restorant Haqqında
+            </h2>
+
+          <p class="section-text">
+           Limon-Ailəvi Restorantı Şəhərin mərkəzində yerləşən restorantdır.Limon-Ailəvi restorant Şəkinin ən yaxşı və keyfiyətli restoranlarından biridir
+           Bu restoran Dönəri ilə,Lahmacunu ilə,pidesi ilə tanınan restoranlardan biridir.
+          </p>
+
+          <p class="section-text">
+            
+          
+          </p>
+
+          
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #SERVICES SECTION
+      -->
+
+      <section class="services" id="services">
+
+        <div class="service-card">
+
+          <p class="card-number">01</p>
+
+          <h3 class="card-heading">Şəhərin mərkəzində yerləşir.</h3>
+
+          <p class="card-text">
+            Şəhərin Ən yaxşı restoranlarından biridir
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">02</p>
+
+          <h3 class="card-heading">Temiz və dadlı yemekleriylə zengindir.</h3>
+
+          <p class="card-text">
+            Həddindən artıq gözəl dönərlər türk yeməkləri mövcuddur.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">03</p>
+
+          <h3 class="card-heading">Canlı musiqiler ve s</h3>
+
+          <p class="card-text">
+            Adgünü və Məclislər rezerv edə bilərsiniz.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">04</p>
+
+          <h3 class="card-heading">Professional işçiler</h3>
+
+          <p class="card-text">
+        Təmiz,Səliqeli ve Dadlı yeməklər 
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #PRODUCT SECTION
+      -->
+
+      <section class="product" id="menu">
+
+        <h2 class="section-title">Ən sevilən yeməklər.</h2>
+
+        <p class="section-text">
+          Müştərilərin dadınnan doyamadığı dadlılığda olan yemeklər.
+        </p>
+
+        <div class="products-grid">
+
+          <a href="https://menu.cafetap.az/restaurants/229/categories/4957/foods/35211">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/menu1.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Ət Döner</h3>
+
+                  <p class="product-price">
+                    <span class="small">AZN</span>2.50
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="https://menu.cafetap.az/restaurants/229/categories/4957/foods/35230">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/menu2.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Pide</h3>
+
+                  <p class="product-price">
+                    <span class="small">AZN</span>5
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="https://menu.cafetap.az/restaurants/229/categories/4957/foods/35226">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/menu3.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+
+                <div class="card-badge green">
+                  <ion-icon name="leaf"></ion-icon>
+                  <p>Vegan</p>
+                </div>
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Şaurma
+
+                  <p class="product-price">
+                    <span class="small">AZN</span>3.50
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="https://menu.cafetap.az/restaurants/229/categories/4951/foods/35169">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/menu4.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+
+                <div class="card-badge red">
+                  <ion-icon name="flame"></ion-icon>
+                  <p>Hot</p>
+                </div>
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Tikə kabab</h3>
+
+                  <p class="product-price">
+                    <span class="small">AZN</span>6
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="https://menu.cafetap.az/restaurants/229/categories/4952/foods/35175">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/menu5.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+
+                <div class="card-badge green">
+                  <ion-icon name="leaf"></ion-icon>
+                  <p>Vegan</p>
+                </div>
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Toyuq supu</h3>
+
+                  <p class="product-price">
+                    <span class="small">AZN</span>4
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="https://menu.cafetap.az/restaurants/229/categories/4952/foods/35180">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/menu6.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Şəki pitisi</h3>
+
+                  <p class="product-price">
+                    <span class="small">AZN</span>7
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+        </div>
+
+        <button onclick="document.location='https://menu.cafetap.az/restaurants/229/categories' "class="btn btn-primary btn-icon">
+          <img src="./assets/images/menu.svg" alt="menu icon">
+          Tam menü
+        </button>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #TESTIMONIALS SECTION
+      -->
+
+
+
+
+
+    <!--
+      - #FOOTER
+    -->
+
+    <footer>
+
+      <div class="footer-wrapper">
+
+        <a href="#home">
+          <img src="./assets/images/logo-footer.svg" alt="logo" class="footer-brand" width="130">
+        </a>
+
+        <div class="social-link">
+
+          
+          
+
+          <a href="https://www.instagram.com/limonrestoran_esas/">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+
+          
+
+      
+          
+
+        </div>
+
+        <p class="copyright">&copy; Limon-Restorant 2023 Sinan Abdullayev. +994517151594.</p>
+
+      </div>
+
+    </footer>
+
+  </div>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/foodhub.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
